@@ -1,0 +1,27 @@
+Task 1: Weather Forecast Classification
+Write a program that accepts an integer representing the temperature in Fahrenheit. Based on the temperature, classify it as one of the following:
+
+Below 32°F: Freezing
+
+Between 32°F and 60°F (inclusive): Cold
+
+Between 61°F and 85°F (inclusive): Warm
+
+Above 85°F: Hot
+
+Additionally, handle edge cases:
+
+If the input is below -100°F, return: "Temperature too low"
+
+If the input is above 150°F, return: "Temperature too high"
+
+Example Input/Output:
+
+Input: 50
+Output: Cold
+
+Input: 90
+Output: Hot
+
+Input: -120
+Output: Temperature too low
