@@ -1,0 +1,14 @@
+'''
+Task:
+Input an integer number of minutes.
+Convert it into hours, minutes, and seconds.
+Assume:
+1 hour = 60 minutes
+1 minute = 60 seconds
+The input is the total seconds.
+Output format:
+Hours: h
+Minutes: m
+Seconds: s
+'''
+
