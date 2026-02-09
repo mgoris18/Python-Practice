@@ -12,3 +12,16 @@ Minutes: m
 Seconds: s
 '''
 
+seconds = int(input())
+
+hour = seconds // 3600
+
+Rseconds = seconds % 3600
+
+Minutes = Rseconds // 60
+
+Rseconds= Rseconds % 60
+
+print(f"Hours: {hour}")
+print(f"Minutes: {Minutes}")
+print(f"Seconds: {Rseconds}")
