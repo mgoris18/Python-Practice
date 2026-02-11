@@ -9,13 +9,13 @@ if __name__ == '__main__':
     code = event[1]
     
     if code == "10":
-        logging.debug("Initialization Complete")
+        logging.debug("Initialization complete")
     elif code == "20":
         logging.info("User logged in successfully")
     elif code == "30":
         logging.warning("High memory usage detected")
     elif code == "40":
-        logging.error("Unable to connect to a server")
+        logging.error("Unable to connect to server")
     elif code == "50":
-        logging.critical("System Shutdown initiated")
+        logging.critical("System shutdown initiated")
 
