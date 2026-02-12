@@ -20,3 +20,8 @@ class TestNoneCheck(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+#12 check if string contains numbers
+#7 assert is none
+#24 least privelage
