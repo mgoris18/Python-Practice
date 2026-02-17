@@ -1,0 +1,17 @@
+#open, write, and read text file using open(), write(), read()
+#solution accepts file input
+#solution appends a new line composed of the two words joined by "-"
+#solution outputs the updated file contents
+
+
+file_name = input()
+with open (file_name, 'r') as file:
+    words = file.read().splitlines()
+
+sentence = "-".join(words)
+
+with open(file_name, "a") as file:
+    file.write("\n" + sentence)
+
+with open(file_name, "r") as file:
+    print(file.read())
